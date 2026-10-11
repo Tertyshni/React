@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #eee;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  min-height: 400px;
+}
+
+aside {
+  background: #444;
+  padding: 20px;
+  width: 150px;
+}
+
+aside a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+aside a.active {
+  background: #087bdb;
+}
+
+main {
+  padding: 20px;
+}
+
+.movies {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.movie {
+  background: white;
+  padding: 15px;
+  width: 150px;
+  border-radius: 5px;
+}

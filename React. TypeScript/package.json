@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "myfeature": "tsx watch src/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tertyshni/React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tertyshni/React/issues"
+  },
+  "homepage": "https://github.com/Tertyshni/React#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.104.1",
+    "react-router-dom": "^7.18.4",
+    "vite": "^8.3.4"
+  }
+}
