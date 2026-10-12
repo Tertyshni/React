@@ -1,0 +1,18 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.image {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  transition: border-radius 0.1s;
+}
